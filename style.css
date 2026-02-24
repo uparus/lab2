@@ -7,6 +7,7 @@ ol li {
 }
 .exam {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px black;
 }
 #table {
     line-height:200%
@@ -25,4 +26,29 @@ a.foo:hover {
 a.foo {
   text-decoration-color: white;
   color: white;
+}
+
+.test{
+    margin-left: 25%;
+}
+
+
+.colorA{
+    color: rgb(255, 0, 200);
+}
+.colorA:hover{
+    color:rgb(255, 0, 68);
+    cursor: pointer;
+}
+.colorB{
+    color: blueviolet;
+}
+.colorB:hover{
+    color:rgb(0, 255, 255);
+    cursor: pointer;
+}
+.fade:hover{
+    cursor: pointer;
+    opacity: 10%;
+
 }
